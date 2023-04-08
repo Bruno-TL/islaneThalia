@@ -1,7 +1,7 @@
 <template>
   <v-footer class="bg-black text-center d-flex flex-column ">
     <div>
-      <v-btn v-for="icon in icons" :key="icon" class="mx-4" :icon="icon" variant="text"></v-btn>
+      <v-btn href="https://www.instagram.com/i.thalia__/"  class="mx-4" icon="mdi-instagram" variant="text"></v-btn>
     </div>
     <v-divider></v-divider>
 
@@ -14,11 +14,7 @@
 <script>
   export default {
     data: () => ({
-      icons: [
-        'mdi-facebook',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
+      
     }),
   }
 </script>

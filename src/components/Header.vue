@@ -38,10 +38,11 @@
 }
 
 .parag{
-  width: 157px;
+  width: 180px;
   text-align: center;
   font-family: cursive;
   font-weight: 200;
+  font-size: 14px;
   font-style: italic;
   background: rgba(255, 255, 255, 0.063);
     backdrop-filter: blur( 5px );
