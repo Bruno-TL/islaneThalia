@@ -8,11 +8,11 @@
     
     >
       <div class="containerDiv-div2 w-75">
-        <v-app-bar-title class="text-h4 titulo">Islane Thalia</v-app-bar-title>
+        <v-app-bar-title class="text-h4 titulo">Thalia Araujo</v-app-bar-title>
         <h6 class="parag">Designer de sobrancelhas</h6>
       </div>
 
-      <v-img src="../assets/semFundo.png" class="containerDiv-div3" alt=""></v-img>
+      <v-img src="../assets/logoTra.png" class="containerDiv-div3" alt=""></v-img>
 
     </v-app-bar>
   </div>
@@ -40,18 +40,18 @@
 .parag{
   width: 180px;
   text-align: center;
-  font-family: cursive;
-  font-weight: 200;
+  font-family: 'Exo 2', sans-serif;
   font-size: 14px;
   font-style: italic;
   background: rgba(255, 255, 255, 0.063);
-    backdrop-filter: blur( 5px );
+    backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 10px;
 }
 
 .titulo{
   color: #ffd700;
-  text-shadow: black 2px 2px
+  text-shadow: black 2px 2px;
+  font-family: 'Dancing Script', cursive !important;
 }
 </style>

@@ -5,8 +5,9 @@
       <Header class="header" />
       <v-main>
         <v-container class="container1">
-          <v-card border class="mb-2 v-cardB" density="compact" subtitle="R$ 20,00" title="Design simples personalizado"
-            variant="text">
+          <Alert/>
+          <v-card border class="mb-2 v-cardB" density="compact" subtitle=" De R$20,00 por R$15,00 PROMOÇÃO"
+            title="Design simples personalizado" variant="text">
             <v-img src="../assets/imgProdutos/dSimples.png" height="128" cover></v-img>
 
             <v-card-text>
@@ -25,8 +26,8 @@
             </template>
           </v-card>
 
-          <v-card border class="mb-2 v-cardB" density="compact" subtitle="R$ 30,00" title="Design com Henna"
-            variant="text">
+          <v-card border class="mb-2 v-cardB" density="compact" subtitle="De R$30,00 por R$25,00 PROMOÇÃO"
+            title="Design com Henna" variant="text">
             <v-img src="../assets/imgProdutos/henna.jpg" height="128" cover></v-img>
 
             <v-card-text>
@@ -155,7 +156,8 @@
 <script setup>
 import Header from "./Header.vue"
 import Footer from "./Footer.vue"
-  //
+import Alert from "./Alert.vue"
+
 </script>
 
 <style>
